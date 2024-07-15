@@ -56,8 +56,6 @@ public static boolean armstrongNumber( int n){
 
     return true;
 }
-
-
 public static void main(String[] args) {
     int n = 4;
     
@@ -65,4 +63,5 @@ public static void main(String[] args) {
     System.out.println(armstrongNumber(n));
 }
 }
+
 

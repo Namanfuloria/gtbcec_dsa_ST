@@ -96,16 +96,16 @@ if(i==1|| i==n|| j==1||j==n){
         System.out.print("* ");
     System.out.println();
     } */
-    /*for (int i=1; i<=n; i++){
+     for (int i=1; i<=n; i++){
         for (int j=1; j<=i; j++)
-            System.out.print("* ");
-        System.out.println();
-    }
+             System.out.print("* ");
+         System.out.println();
+     }
     for (int i=n-1; i>=1; i--){
-        for (int j=1; j<=i; j++)
-            System.out.print("* ");
+         for (int j=1; j<=i; j++)
+             System.out.print("* ");
         System.out.println();
-    } */
+    } 
 
 
     /*for (int i=1; i<=n; i++){
@@ -122,7 +122,7 @@ if(i==1|| i==n|| j==1||j==n){
             System.out.print("* ");
         System.out.println();
     }*/
-    for(int i=1;i<=n;i++){
+    /*for(int i=1;i<=n;i++){
         for (int j=1;j<=i;j++){
             System.out.print("*");
         } 
@@ -130,6 +130,6 @@ if(i==1|| i==n|| j==1||j==n){
         System.out.println();
             }
 
-
+*/
 }
 }

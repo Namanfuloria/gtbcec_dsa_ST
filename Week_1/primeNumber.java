@@ -33,6 +33,36 @@ public static void main(String []args){
     System.out.println(reverseInteger(n));
 }*/
 // amstrong number
-
-
+public static int lengthNumber(int n){
+    int count = 0;
+    int temp=n;
+    while(temp != 0){
+        temp = temp/10;
+        count++;
+    }
+    return count;
 }
+public static boolean armstrongNumber( int n){
+    int temp = n;
+    int count = lengthNumber(n);
+    int sum = 0;
+    while(temp != 0){
+        int digit = temp % 10;
+        sum += Math.pow(digit, count);
+        temp = temp/10;
+        
+        return sum ==temp;
+        }
+
+    return true;
+}
+
+
+public static void main(String[] args) {
+    int n = 4;
+    
+    System.out.println(lengthNumber(n));
+    System.out.println(armstrongNumber(n));
+}
+}
+

@@ -16,12 +16,12 @@ public class patterPractice {
     }                          
 */
 /*2.RYT FACING TRIANGLE
-for(int i=n;i>=1;i--){
-    for(int k=1;k<=(n-i);k++)
-    System.out.print("  ");
-    for(int j=1;j<=i;j++){
+for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= i; j++) {
         System.out.print("* ");
-    }System.out.println();
+ }
+    System.out.println();
+}
 */
 /* 
 3.RYT INVERTED FACING TRIANGLE
@@ -228,14 +228,16 @@ for (int i=n-1; i>=1; i--){
     System.out.println();
 }*/
 // QUES 19.
-for(int i=n;i>=1;i--){                                 
+/*for(int i=n;i>=1;i--){                                 
      for (int j=1;j<=i;j++){
         System.out.print("* ");}
-        for(int k=n;k>=1;k--)
+        for(int k=1;k<=n;k++)
+        System.out.print("");
+        for(int k=1;k<=n-1;k++)
         System.out.print(" ");
-        for(int j=1;j<=n;j++)
-        System.out.print("* ");
-        System.out.println();
+         for(int j=1;j<=n-i;j++)
+         System.out.print("* ");
+         System.out.println();
     }
  /*for(int i=2;i<=n;i++){
     for(int k=n;k>=n;k--)
@@ -244,5 +246,26 @@ for(int i=n;i>=1;i--){
         System.out.print("* ");
     }System.out.println();
 }*/
-}
-}
+/*for (int i = 1; i <= n - 3; i++) {
+    for (int j = 1; j <= i; j++) {
+        System.out.print("* ");
+    }
+
+
+}*/
+// QUES.21
+for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= i; j++) {
+        System.out.print("* ");
+    }
+        for(int k=1;k<=(n-i);k++)
+        System.out.print("  ");
+        for(int k=2;k<=(n-i);k++)
+        System.out.print("  ");
+        for(int j=1;j<=i && j<n;j++){
+            System.out.print("* ");
+        }System.out.println();
+    
+    }
+
+}}

@@ -64,7 +64,7 @@ public class arrayPractice {
     // System.out.println(" The swapped value of b is " + b);
 
     // }
-// reverse of an array
+    // reverse of an array
     // public static void reverse(int[] array) {
     // int n = array.length;
     // int temp = 0;

@@ -45,7 +45,7 @@ public static void main(String[] args) {
     int[]arr={1,2,3,4,5,6};
 subArray(arr);
 }  
-/*/ kadane algo
+/*/ kadane algo imp
 int KadaneAlgo(int[]arr){
     int maxSum=Integer.MIN_VALUE;
     int currSum=0;

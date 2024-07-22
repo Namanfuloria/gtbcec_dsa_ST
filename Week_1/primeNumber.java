@@ -20,7 +20,7 @@ import java.util.Scanner;
 
 public class primeNumber {
 
-   /*  public static int reverseInteger(int n){
+    public static int reverseInteger(int n){
         int temp=0;
         while(n!=0){
             temp=temp*10+n%10;
@@ -31,8 +31,8 @@ public static void main(String []args){
     Scanner sc = new Scanner(System.in);
     int n=sc.nextInt();
     System.out.println(reverseInteger(n));
-}*/
-// amstrong number
+}
+/*/ amstrong number
 public static int lengthNumber(int n){
     int count = 0;
     int temp=n;
@@ -61,7 +61,6 @@ public static void main(String[] args) {
     
     System.out.println(lengthNumber(n));
     System.out.println(armstrongNumber(n));
+}*/
 }
-}
-
 

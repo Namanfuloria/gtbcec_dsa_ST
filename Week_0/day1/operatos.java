@@ -17,7 +17,7 @@ x/=3;// x=x/3
 x%=3; //x=x%3
 
 int sum=0;
-for(int i=1;i<=25;i++){
+for(int i=1;i<=25;i++)//traverse ho jaega {
     sum=sum+i;
     System.out.print(sum +" , ");
 }

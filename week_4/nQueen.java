@@ -68,4 +68,4 @@ public class nQueen {
         nqueen(board, 0, n);
     }
 }
-
+ 
